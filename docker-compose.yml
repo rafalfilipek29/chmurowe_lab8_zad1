@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+ flask:
+    build: .
+    command: python main.py
+    ports:
+      - "8080:8080"
